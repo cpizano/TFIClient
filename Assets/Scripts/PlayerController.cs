@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.D),
         };
 
+        // This is cpu's added code, probably needs to be removed.
         if (previous.Equals(_inputs))
         {
             return;
